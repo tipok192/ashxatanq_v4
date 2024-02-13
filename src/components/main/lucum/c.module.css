@@ -1,0 +1,87 @@
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.box{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 1%;
+    border-top: none;
+    border-bottom: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.box:hover{
+    border: 5px solid rgb(194, 208, 255);
+    padding: 1%;
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none;
+    transition: 0.5s;
+    background-color: rgb(247, 252, 255);
+}
+.box2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width:500px;
+}
+.hw1 {
+    color: rgb(71, 71, 71);
+    opacity: 90%;
+    transition: 0.2s;
+}
+.hw2 {
+    color: rgb(71, 71, 71);
+    word-break: break-all;
+    opacity: 50%;
+    transition: 0.2s;
+}
+.hw2:hover {
+    color: rgb(71, 71, 71);
+    opacity: 90%;
+    word-break: break-all;
+    transition: 0.2s;
+}
+.gicdiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.gic{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    height: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 1px;
+}
+.gicdiv2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.gic2{
+    width: 80%;
+    background-color: rgb(238, 238, 238);
+    height: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.div3{
+    padding: 1%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.audio{
+    margin: 20px;
+}

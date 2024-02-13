@@ -1,0 +1,47 @@
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.box{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 1%;
+    border-top: none;
+    border-bottom: none;
+    transition: 0.5s;
+}
+.box:hover{
+    border: 5px solid rgb(147, 194, 147);
+    padding: 1%;
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none;
+    transition: 0.5s;
+    background-color: rgb(240, 255, 240);;
+}
+.text{
+    width:800px;
+}
+.text2{
+    text-align: left;
+}
+.hw1 {
+    color: rgb(71, 71, 71);
+    opacity: 90%;
+    transition: 0.2s;
+}
+.hw2 {
+    color: rgb(71, 71, 71);
+    word-break: break-all;
+    opacity: 50%;
+    transition: 0.2s;
+    margin: 0px;
+}
+.hw2:hover {
+    color: rgb(71, 71, 71);
+    opacity: 90%;
+    word-break: break-all;
+    margin: 0px;
+    transition: 0.2s;
+}

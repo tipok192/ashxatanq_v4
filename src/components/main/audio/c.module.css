@@ -1,0 +1,109 @@
+.gicdiv2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.gic2{
+    width: 80%;
+    background-color: rgb(238, 238, 238);
+    height: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hw1 {
+    color: rgb(71, 71, 71);
+    opacity: 90%;
+    border-bottom: 3px hsl(0, 0%, 100%) solid;
+    transition: 0.6s;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 10px;
+
+    border-top: 3px hsl(0, 0%, 100%) solid;
+
+}
+.hw1:hover {
+    color: rgb(71, 71, 71);
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 10px;
+
+    opacity: 90%;
+    transition: 0.6s;
+    border-bottom: 3px hsl(281, 100%, 88%) solid;
+    background-color: hsl(295, 100%, 98%) ;
+    border-radius: 10px;
+    border-top: 3px hsl(281, 100%, 88%) solid;
+
+}
+.audio{
+    width: 350px;
+    border: 6px dotted white;
+    transition: 0.2s;
+    padding: 2px;
+}
+.audio:hover{
+    width: 350px;
+    transition: 0.2s;
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.hw2{
+    color: rgb(71, 71, 71);
+    opacity: 90%;
+    transition: 0.6s;
+}
+.hw3 {
+    color: rgb(85, 85, 85);
+    opacity: 90%;
+    transition: 0.6s;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 10px;
+
+
+}
+.hw3:hover{
+    color: rgb(3, 3, 3);    
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 10px;
+    opacity: 95%;
+    transition: 0.6s;
+}
+
+@keyframes anim {
+    0%{
+        border: 6px dotted rgb(255, 255, 255);
+    }
+    25%{
+        border: 6px dotted rgb(0, 0, 0);
+    }
+    50%{
+        border: 6px dotted rgb(255, 255, 255);
+    }
+    75%{
+        border: 6px dotted rgb(0, 0, 0);
+    }
+    100%{
+        border: 6px dotted rgb(255, 255, 255);
+    }
+}
